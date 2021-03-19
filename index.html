@@ -13,23 +13,24 @@
   <div class="container">
     <div class="row roww">
 
-      <div class="col-lg-6">
-        <img class="picBg" src="img/bg.jpg" alt="">
+      <div class="col-lg-6 for-logo">
+        <img class="pic-bg" src="img/bg.jpg" alt="">
+        <img class="logo" src="img/logo.svg" alt="">
       </div>
 
       <div class="col-lg-6">
         <h1>Get iintoo it today</h1>
-        <div class="afterH1">There is no change or obligation upon registration</div>
+        <p class="fz-29">There is no change or obligation upon registration</p>
 
-        <div class="row">
-          <div class="col-md-6 col">
+        <div class="row mb-row">
+          <div class="col-sm-12 col-md-6 col-lg-12 col-xl-6">
             <a href="#" class="btn btn-fb">
               <img src="img/facebook.svg" alt="">
               <span>Register with Facebook</span>
             </a>
           </div>
 
-          <div class="col-md-6 col">
+          <div class="col-sm-12 col-md-6 col-lg-12 col-xl-6">
             <a href="#" class="btn btn-in">
               <img src="img/linkedin.svg" alt="">
               <span>Register with LinkedIn</span>
@@ -37,50 +38,65 @@
           </div>
         </div>
 
-
         <div class="choice">
           <span>or</span>
         </div>
 
-        <div class="row">
-          <div class="col-md-6">
-            <input class="email" type="email" placeholder="Email" name="Email">
-          </div>
-          <div class="col-md-6">
-            <input class="phone" type="tel" placeholder="Phone" name="Phone">
+        <div class="contacts">
+          <div class="row">
+            <div class="col-md-6">
+              <div class="email">
+                <label>
+                  Email
+                  <input type="email" name="Email">
+                </label>
+              </div>
+            </div>
+
+            <div class="col-md-6">
+              <div class="phone">
+                <label>
+                  Phone
+                  <input type="tel" name="Phone">
+                </label>
+              </div>
+            </div>
           </div>
         </div>
 
         <h2>What type of investor are you?</h2>
-        <div class="afterH2">Select the type of investor you are below.</div>
+        <p class="mb-p">Select the type of investor you are below.</p>
 
-        <label class="radio">
-          <input type="radio" name="time" value="Individual" checked>
-          Individual
-        </label>
-        <label class="radio">
-          <input type="radio" name="time" value="Business">
-          Business
-        </label>
-        <label class="radio">
-          <input type="radio" name="time" value="IRA">
-          IRA
-        </label>
-        <label class="radio">
-          <input type="radio" name="time" value="Trust">
-          Trust
-        </label>
+        <div class="radio-btn">
+          <label>
+            <input type="radio" name="time" value="Individual" checked>
+            Individual
+            <img src="img/info.svg" alt="">
+          </label>
+          <!-- <p>I am a natural person investing on my own behalf as a sole owner, joint tenant, or tenant in common.</p> -->
+          <label>
+            <input type="radio" name="time" value="Business">
+            Business
+            <img src="img/info.svg" alt="">
+          </label>
+          <label>
+            <input type="radio" name="time" value="IRA">
+            IRA
+            <img src="img/info.svg" alt="">
+          </label>
+          <label>
+            <input type="radio" name="time" value="Trust">
+            Trust
+            <img src="img/info.svg" alt="">
+          </label>
+        </div>
 
         <label class="checkbox">
           <input type="checkbox" name="time">
-          <span>I agree to the terms and receiving notifications from iintoo
-            <a class="fullTerms" href="#">View full terms</a>
-          </span>
+          <p>I agree to the terms and receiving notifications from iintoo
+          </p>
+          <a class="fullTerms" href="#">View full terms</a>
         </label>
-
-
-
-
 
         <button>Create Account</button>
 
